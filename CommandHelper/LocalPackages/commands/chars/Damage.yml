@@ -1,0 +1,34 @@
+class: Damage
+costumes:
+- chatcolor: '&7'
+  name: §4D§7a§7m§7a§7g§4e
+  sig: eyJ0aW1lc3RhbXAiOjE1MjU0MTM4Nzg4NjcsInByb2ZpbGVJZCI6IjkxNzllNDNmM2M5YTRhNjdhNzk0MjRhOTIzYjJjNzJjIiwicHJvZmlsZU5hbWUiOiJTaGFkZWRHdWFyZGlhbllUIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNmEwNzZkYzU2YjRkOWE2OWUxNTI0ZTkyOGUxZWU5MDE1MTQwYTdhZmUyMmFiZmQwNDI5ODk3NGY2MDEifX19
+  val: eyJ0aW1lc3RhbXAiOjE1MjU0MTM4Nzg4NjcsInByb2ZpbGVJZCI6IjkxNzllNDNmM2M5YTRhNjdhNzk0MjRhOTIzYjJjNzJjIiwicHJvZmlsZU5hbWUiOiJTaGFkZWRHdWFyZGlhbllUIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNmEwNzZkYzU2YjRkOWE2OWUxNTI0ZTkyOGUxZWU5MDE1MTQwYTdhZmUyMmFiZmQwNDI5ODk3NGY2MDEifX19
+effects:
+- /effect <plr> 5 9999 20 true
+- /effect <plr> 10 9999 1 true
+- /effect <plr> 11 9999 3 true
+- /effect <plr> 12 9999 1 true
+- /effect <plr> 13 9999 1 true
+haste: 9
+items:
+- /give <plr> minecraft:elytra 1 70:1 34:3 name:&a&lH&2&lULK's_&aGlide_Wings
+jump: 9
+maxHearts: 55
+permissions:
+  superherocity:
+  - ch.alias.carryplayer
+  - ch.alias.dropplayer
+  - -essentials.protect.damage.fall
+powers:
+- /effects
+- /buff
+- /items
+- /jump 0-9
+- /run 0-5
+- /haste 0-9
+- /carryplayer <player>
+- /dropplayer
+run: 1
+speech: They wanted Damage. Give them Damage!!!
+trail: [Black]
